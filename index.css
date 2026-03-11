@@ -1,0 +1,47 @@
+.jaura {
+    outline: 0px;
+    border: 0px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #0075BE;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.jaura:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.jaura:focus,
+.jaura:hover {
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.raura {
+    align-content: center;
+}
+
+body {
+
+    background-color: #1c1c1c;
+}
+
+iframe {
+    width: 60%;
+    min-height: 700px;
+    display: block;
+    justify-content: center;
+    border: none;
+    background: none;
+    margin: auto;
+}
+
+div {
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
