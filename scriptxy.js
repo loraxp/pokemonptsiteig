@@ -1,4 +1,4 @@
-const iddosvideosciganos = ["5r3qf5t88s8l", "6pr22m1o8acu", "8085btt2fydl","c9h671zeljjm", "sjk88cb1oa97", "e8htk7vuzydv", "amavgot0tyju", "oidoz9h7f2ry", "33pzwmzdwpip",];
+const iddosvideosciganos = ["i2qoiunvsjrm"];
 
 const container = document.getElementById('buttons-container');
 

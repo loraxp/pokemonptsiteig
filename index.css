@@ -3,11 +3,9 @@
     border: 0px;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    background-color: #0075BE;
-    align-content: center;
-    width: 50px;
-    height: 50px;
+    background: none;
     border-radius: 10px;
+    
 }
 
 .jaura:hover {
@@ -22,7 +20,24 @@
 }
 
 .raura {
+    background-color: #0075BE;
     align-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.raura:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.raura:focus,
+.raura:hover {
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 body {
@@ -31,8 +46,8 @@ body {
 }
 
 iframe {
-    width: 60%;
-    min-height: 700px;
+    width: 1280px;
+    min-height: 720px;
     display: block;
     justify-content: center;
     border: none;
@@ -45,3 +60,4 @@ div {
     align-items: center;
     height: 10vh;
 }
+
