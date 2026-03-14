@@ -1,0 +1,130 @@
+.jaura {
+    outline: 0px;
+    border: 0px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background: none;
+    border-radius: 10px;
+    gap: 50px;
+    margin-top: 20px;
+
+    
+}
+
+.jaura:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.jaura:focus,
+.jaura:hover {
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.raura {
+    background-color: #0075BE;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.raura:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.raura:focus,
+.raura:hover {
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+body {
+    font-family: "Montserrat";
+
+    background-color: #1c1c1c;
+}
+
+iframe {
+    width: 1280px;
+    min-height: 720px;
+    display: block;
+    justify-content: center;
+    border: none;
+    background: none;
+    margin: 100px auto;
+    clear: right;
+    margin-left: 120px;
+}
+
+
+div {
+    align-items: left;
+    height: 10vh;
+    grid-column: auto;
+    width: auto;
+}
+
+#buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
+    padding: 10px;
+    float: left;
+    max-width: 240px;
+    top: 100px;
+    margin-right: 50px;
+    border: 5px solid #333;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 30px;
+    font-family: Arial, sans-serif;
+}
+
+#buttons-container button {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+.laura {
+    background: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: auto;
+    height: auto;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.laura img{
+    background: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 240px;
+    height: 70px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.laura:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.laura:focus,
+.laura:hover {
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}

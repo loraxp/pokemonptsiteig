@@ -23,3 +23,7 @@ function fujarjideos(id) {
     tocadordojideo.src = `https://myvidplay.com/e/${id}`;
     console.log(`a dar o jideo: ${id}`);
 }
+
+function naoclickaxx3 () {
+    window.location.href ="index.html";
+}
